@@ -10,7 +10,7 @@
 
     <name>advent-of-code-2023</name>
     <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+    <url>https://github.com/impune-pl/advent-of-code-2023</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
