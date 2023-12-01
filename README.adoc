@@ -1,14 +1,18 @@
 # Solutions to Advent of code 2023 with launcher.  
 
-:toc:
+Please do not use solutions without at least trying to solve tasks on your own first.
 
 ## Usage
 
 ### Prerequirements
 
-.Software:
+Software:
 - OpenJDK 17 (I'm using AdoptOpenJDK, but other JDKs should work ok as well) 
 - Maven 3.8.3
+- [Optional] JetBrains Fleet
+
+I'm using JetBrains Fleet IDE, and there are configurations that allow Fleet to run and debug the program with Maven. 
+The project layout is standard Maven layout, and IDEA, VSCode, Eclipse or any other editor that can handle Maven projects should have no problems importing it.
 
 ### Running
 
