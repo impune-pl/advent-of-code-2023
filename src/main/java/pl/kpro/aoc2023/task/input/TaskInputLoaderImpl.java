@@ -1,4 +1,4 @@
-package pl.kpro.aoc2023.taskInputs;
+package pl.kpro.aoc2023.task.input;
 
 import java.io.File;
 import java.io.IOException;

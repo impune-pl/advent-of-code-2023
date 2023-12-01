@@ -1,4 +1,4 @@
-package pl.kpro.aoc2023.tasks;
+package pl.kpro.aoc2023.task;
 
 import org.reflections.Reflections;
 
@@ -12,7 +12,7 @@ public class TaskLoaderImpl implements TaskLoader {
 
     @Override
     public Set<AdventTask> getTasks() {
-        Reflections reflections = new Reflections("pl.kpro.aoc2023.tasks");
+        Reflections reflections = new Reflections("pl.kpro.aoc2023.task");
         Set<Class<? extends AdventTask>> taskImplementations = reflections.getSubTypesOf(AdventTask.class);
         return taskImplementations.stream().map(this::createInstance).sorted(Comparator.comparing(AdventTask::getNumber)).collect(Collectors.toCollection(LinkedHashSet<AdventTask>::new));
     }

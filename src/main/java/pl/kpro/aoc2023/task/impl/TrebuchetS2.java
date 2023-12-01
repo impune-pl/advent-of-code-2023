@@ -1,9 +1,8 @@
-package pl.kpro.aoc2023.tasks.impl;
+package pl.kpro.aoc2023.task.impl;
 
-import pl.kpro.aoc2023.tasks.AdventTask;
+import pl.kpro.aoc2023.task.AdventTask;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class TrebuchetS2 extends TrebuchetS1 implements AdventTask {
     private static final String NAME = "TrebuchetS2";

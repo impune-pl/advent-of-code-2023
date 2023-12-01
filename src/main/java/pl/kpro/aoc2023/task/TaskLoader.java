@@ -1,4 +1,4 @@
-package pl.kpro.aoc2023.tasks;
+package pl.kpro.aoc2023.task;
 
 import java.util.Set;
 

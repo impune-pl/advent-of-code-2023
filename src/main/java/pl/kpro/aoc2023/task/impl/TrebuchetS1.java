@@ -1,6 +1,6 @@
-package pl.kpro.aoc2023.tasks.impl;
+package pl.kpro.aoc2023.task.impl;
 
-import pl.kpro.aoc2023.tasks.AdventTask;
+import pl.kpro.aoc2023.task.AdventTask;
 
 import java.util.Arrays;
 
@@ -25,7 +25,6 @@ public class TrebuchetS1 implements AdventTask {
     }
 
     protected String findNumber(String line) {
-        System.out.println(line);
         char[] characters = line.toCharArray();
         return new String(new char[]{this.findFirstDigitIn(characters), this.findLastDigit(characters)}).trim();
     }

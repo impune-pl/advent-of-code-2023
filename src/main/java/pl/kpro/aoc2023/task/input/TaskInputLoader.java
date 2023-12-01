@@ -1,4 +1,4 @@
-package pl.kpro.aoc2023.taskInputs;
+package pl.kpro.aoc2023.task.input;
 
 import java.nio.file.Path;
 import java.util.List;

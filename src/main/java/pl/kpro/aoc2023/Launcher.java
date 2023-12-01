@@ -1,28 +1,24 @@
 package pl.kpro.aoc2023;
 
-import pl.kpro.aoc2023.taskInputs.TaskInputLoader;
-import pl.kpro.aoc2023.taskInputs.TaskInputLoaderImpl;
-import pl.kpro.aoc2023.tasks.AdventTask;
-import pl.kpro.aoc2023.tasks.TaskLoader;
-import pl.kpro.aoc2023.tasks.TaskLoaderImpl;
+import pl.kpro.aoc2023.task.input.TaskInputLoader;
+import pl.kpro.aoc2023.task.input.TaskInputLoaderImpl;
+import pl.kpro.aoc2023.task.AdventTask;
+import pl.kpro.aoc2023.task.TaskLoader;
+import pl.kpro.aoc2023.task.TaskLoaderImpl;
 
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
-import java.util.function.Predicate;
 
 public class Launcher {
-    private final String[] args;
-    private final TaskLoader taskLoader;
     private final TaskInputLoader taskInputLoader;
     private final Set<AdventTask> tasks;
 
     public Launcher(String[] args) {
-        this.args = args;
-        this.taskLoader = new TaskLoaderImpl();
-        this.taskInputLoader = new TaskInputLoaderImpl();
+        TaskLoader taskLoader = new TaskLoaderImpl();
         this.tasks = taskLoader.getTasks();
+        this.taskInputLoader = new TaskInputLoaderImpl();
     }
 
     public void start() {
