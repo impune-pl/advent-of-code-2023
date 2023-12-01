@@ -1,6 +1,10 @@
 # Solutions to Advent of code 2023 with launcher.  
 
 This branch contains 'raw' version of launcher, without solutions. There is an example implementation of `AdventTask` named `Echo` for reference.
+If you would like to only use the launcher, pull this `only_launcher` branch:
+
+[source, bash]
+git clone -b only_launcher --single-branch git@github.com:impune-pl/advent-of-code-2023.git
 
 ## Usage
 
