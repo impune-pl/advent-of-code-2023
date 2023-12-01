@@ -1,6 +1,6 @@
 # Solutions to Advent of code 2023 with launcher.  
 
-Please do not use solutions without at least trying to solve tasks on your own first.
+This branch contains 'raw' version of launcher, without solutions. There is an example implementation of `AdventTask` named `Echo` for reference.
 
 ## Usage
 
