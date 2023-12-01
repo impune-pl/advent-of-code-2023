@@ -1,6 +1,10 @@
 # Solutions to Advent of code 2023 with launcher.  
 
 Please do not use solutions without at least trying to solve tasks on your own first.
+If you would like to only use the launcher, pull `only_launcher` branch.
+
+[source, bash]
+git clone -b only_launcher --single-branch git@github.com:impune-pl/advent-of-code-2023.git
 
 ## Usage
 
