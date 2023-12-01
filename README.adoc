@@ -1,0 +1,34 @@
+# Solutions to Advent of code 2023 with launcher.  
+
+:toc:
+
+## Usage
+
+### Prerequirements
+
+.Software:
+- OpenJDK 17 (I'm using AdoptOpenJDK, but other JDKs should work ok as well) 
+- Maven 3.8.3
+
+### Running
+
+While in advent-of-code-2023 catalog, run following command:
+
+[source, bash]
+---
+mvn clean install exec:java
+---
+
+This will build and start the program.
+
+### Modifying
+
+#### Adding tasks
+
+You can add task implementations to `pl.kpro.aoc2023.tasks.impl` as classes implementing `AdventTask` interface. They will be automatically picked by the rest of after recompiling. Remember to give them distinct name and number (returned by methods declared in `AdventTask`). 
+
+#### Task input files
+
+You can add new input files in `resources/tasks`. Input file name must contain task name. My convention is `<taskName>-<variant>.txt`. Feel free to choose your own convention.
+By default launcher expects input files to contain any UTF-8 text. Selected file is loaded into memory all at once, so avoid large files. There are no other constraints.
+    
