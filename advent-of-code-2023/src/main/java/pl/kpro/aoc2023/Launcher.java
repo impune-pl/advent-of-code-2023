@@ -32,7 +32,7 @@ public class Launcher {
             System.out.println("Quit Y/N?");
             Scanner scanner = new Scanner(System.in);
             String quit = scanner.nextLine();
-            shouldEnd = quit.equals("Y");
+            shouldEnd = quit.toLowerCase().contains("y");
         } while (!shouldEnd);
     }
 

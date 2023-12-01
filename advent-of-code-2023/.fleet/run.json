@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "maven",
+            "name": "Run program with maven",
+            "tasks": [
+                "clean",
+                "install",
+                "exec:java"
+            ]
+        },
+
+    ]
+}
