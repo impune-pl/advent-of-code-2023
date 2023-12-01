@@ -15,9 +15,7 @@
 While in advent-of-code-2023 catalog, run following command:
 
 [source, bash]
----
 mvn clean install exec:java
----
 
 This will build and start the program.
 
