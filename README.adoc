@@ -7,7 +7,7 @@ Please do not use solutions without at least trying to solve tasks on your own f
 ### Prerequirements
 
 Software:
-- OpenJDK 17 (I'm using AdoptOpenJDK, but other JDKs should work ok as well) 
+- OpenJDK 19 (I'm using AdoptOpenJDK, but other JDKs should work ok as well)
 - Maven 3.8.3
 - [Optional] JetBrains Fleet
 
