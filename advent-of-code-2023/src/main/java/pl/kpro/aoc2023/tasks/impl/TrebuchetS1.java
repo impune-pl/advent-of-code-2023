@@ -5,8 +5,8 @@ import pl.kpro.aoc2023.tasks.AdventTask;
 import java.util.Arrays;
 
 public class TrebuchetS1 implements AdventTask {
-    protected static final String NAME = "TrebuchetS1";
-    protected static final int NUMBER = 1;
+    private static final String NAME = "TrebuchetS1";
+    private static final int NUMBER = 1;
 
 
     @Override
@@ -25,6 +25,7 @@ public class TrebuchetS1 implements AdventTask {
     }
 
     protected String findNumber(String line) {
+        System.out.println(line);
         char[] characters = line.toCharArray();
         return new String(new char[]{this.findFirstDigitIn(characters), this.findLastDigit(characters)}).trim();
     }

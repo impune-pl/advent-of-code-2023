@@ -9,6 +9,11 @@
                 "exec:java"
             ]
         },
+        {
+            "type": "maven-run",
+            "name": "Maven-run configuration",
+            "mainClass": "pl.kpro.aoc2023.App",
+        },
 
     ]
 }
