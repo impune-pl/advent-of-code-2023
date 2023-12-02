@@ -11,6 +11,7 @@ git clone -b only_launcher --single-branch git@github.com:impune-pl/advent-of-co
 ### Prerequirements
 
 Software:
+
 - OpenJDK 19 (I'm using AdoptOpenJDK, but other JDKs should work ok as well)
 - Maven 3.8.3
 - [Optional] JetBrains Fleet
